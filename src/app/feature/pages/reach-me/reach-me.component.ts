@@ -8,13 +8,10 @@ import { Context } from '../../../core/models/context';
 })
 export class ReachMeComponent implements OnInit {
 
-  context: Context;
+
 
   constructor() {
-    this.context = {
-      header : "hi",
-    text : "hi"
-    }
+
    }
 
   ngOnInit(): void {
