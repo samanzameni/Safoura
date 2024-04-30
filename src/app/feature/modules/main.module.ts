@@ -38,7 +38,62 @@ const routes: Routes = [
             (module) => module.ReachMeModule
           ),
       },
-
+      {
+        path: 'classroom-project',
+        loadChildren: () =>
+          import('src/app/feature/modules/classroom-project.module').then(
+            (module) => module.ClassroomProjectModule
+          ),
+      },
+      {
+        path: 'conferences',
+        loadChildren: () =>
+          import('src/app/feature/modules/conferences.module').then(
+            (module) => module.ConferencesModule
+          ),
+      },
+      {
+        path: 'language-proficiency',
+        loadChildren: () =>
+          import('src/app/feature/modules/language-proficiency.module').then(
+            (module) => module.LanguageProficiencyModule
+          ),
+      },
+      {
+        path: 'publications',
+        loadChildren: () =>
+          import('src/app/feature/modules/publications.module').then(
+            (module) => module.PublicationsModule
+          ),
+      },
+      {
+        path: 'references',
+        loadChildren: () =>
+          import('src/app/feature/modules/references.module').then(
+            (module) => module.ReferencesModule
+          ),
+      },
+      {
+        path: 'related-courses',
+        loadChildren: () =>
+          import('src/app/feature/modules/related-courses.module').then(
+            (module) => module.RelatedCoursesModule
+          ),
+      },
+      {
+        path: 'skills',
+        loadChildren: () =>
+          import('src/app/feature/modules/skills.module').then(
+            (module) => module.SkillsModule
+          ),
+      },
+      {
+        path: 'workshops',
+        loadChildren: () =>
+          import('src/app/feature/modules/workshops.module').then(
+            (module) => module.WorkshopsModule
+          ),
+      },
     ],
   },
 ];
