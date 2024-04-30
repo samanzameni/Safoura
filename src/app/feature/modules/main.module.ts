@@ -18,26 +18,27 @@ const routes: Routes = [
           ),
       },
       {
-        path: 'about-me',
+        path: 'ٍeducation',
         loadChildren: () =>
           import('src/app/feature/modules/about-me.module').then(
             (module) => module.AboutMeModule
           ),
       },
       {
-        path: 'reach-me',
-        loadChildren: () =>
-          import('src/app/feature/modules/reach-me.module').then(
-            (module) => module.ReachMeModule
-          ),
-      },
-      {
-        path: 'service',
+        path: 'practical-experience',
         loadChildren: () =>
           import('src/app/feature/modules/service.module').then(
             (module) => module.ServiceModule
           ),
       },
+      {
+        path: 'contact-me',
+        loadChildren: () =>
+          import('src/app/feature/modules/reach-me.module').then(
+            (module) => module.ReachMeModule
+          ),
+      },
+
     ],
   },
 ];
