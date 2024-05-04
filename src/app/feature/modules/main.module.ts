@@ -39,7 +39,7 @@ const routes: Routes = [
           ),
       },
       {
-        path: 'classroom-project',
+        path: 'classroom-projects',
         loadChildren: () =>
           import('src/app/feature/modules/classroom-project.module').then(
             (module) => module.ClassroomProjectModule

@@ -13,7 +13,7 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [
-    AboutMeComponent
+
   ],
   imports: [
     CommonModule,
