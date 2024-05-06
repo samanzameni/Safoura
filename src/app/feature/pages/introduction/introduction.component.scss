@@ -1,5 +1,5 @@
-:host{
-  .body{
+:host {
+  .body {
     background-color: #f2f2f2 !important;
     min-height: 85vh;
     border: 5px solid lightskyblue;
@@ -7,11 +7,13 @@
     margin: 20px;
     padding: 20px;
   }
-  .text-model{
+
+  .text-model {
     text-align: center;
     line-height: 30px;
   }
-  .box-css{
+
+  .box-css {
     box-shadow: 10px 10px 5px lightblue;
     border: 1px solid lightblue;
     border-radius: 20px;
@@ -20,4 +22,22 @@
     margin: 10% 0%;
 
   }
-}
+
+  .carousel-indicators [data-bs-target] {
+    background-color: blue !important;
+  }
+
+  .carousel-indicators {
+    margin-bottom: -2rem;
+  }
+
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: mediumslateblue;
+    width: 1rem;
+    height: 1rem;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    top: 105%;
+    width: 5% ;
+  }
+  }
