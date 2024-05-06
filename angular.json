@@ -36,8 +36,9 @@
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss",
-              "src/styles/kit/_iransans.scss"
-              
+              "src/styles/kit/_iransans.scss",
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",
@@ -110,8 +111,9 @@
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss",
-              "src/styles/kit/_iransans.scss"
-              
+              "src/styles/kit/_iransans.scss",
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",
