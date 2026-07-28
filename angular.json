@@ -6,7 +6,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Safoura": {
+    "Maryam": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/safoura",
+            "outputPath": "dist/Maryam",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -82,10 +82,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Safoura:build:production"
+              "browserTarget": "Maryam:build:production"
             },
             "development": {
-              "browserTarget": "Safoura:build:development"
+              "browserTarget": "Maryam:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -93,7 +93,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Safoura:build"
+            "browserTarget": "Maryam:build"
           }
         },
         "test": {
@@ -124,5 +124,5 @@
       }
     }
   },
-  "defaultProject": "Safoura"
+  "defaultProject": "Maryam"
 }
